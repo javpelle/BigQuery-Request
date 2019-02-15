@@ -1,19 +1,26 @@
 # BigQuery-Request
 
-First, access ./build_docker
+* First, access 
 
-Write query in
-	./data/query.txt
+		./build_docker
 
-Copy json file with Google BigQuery credentials in
-	./data/credentials.json
+* Write query in
+		
+		./data/query.txt
 
-If you want to use Docker
+* Copy json file with Google BigQuery credentials in
+	
+		./data/credentials.json
 
-	Build with:
-		sudo docker build -t python <name what you want> .
-	Run with:
-		sudo docker run -ti -v $(pwd)/data:/data <name what you want>
+* If you want to use Docker
 
-You can run program without docker with
-	python Query.py
+	* Build with:
+
+			sudo docker build -t python <name what you want> .
+	* Run with:
+		
+			sudo docker run -ti -v $(pwd)/data:/data <name what you want>
+
+* You can run program without docker with  
+		
+		python Query.py
